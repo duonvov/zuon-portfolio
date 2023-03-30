@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuon's Portfolio</title>
+    <link rel="stylesheet" href="css/contact-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Zen+Maru+Gothic:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./image/logo.ico"/>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    
+    <script src="./js/fadeUp.js"></script>
+
+</head>
+<link rel="shortcut icon" type="image/png" href="../image/logo.png"/>
+
+<!--HEADER-->
+<header id="header">
+    <a href="index.html"><img src="./image/logo.png" width="100" height="100" alt="logo"></a>
+    <nav>
+        <ul id="g-navi">
+            <li><a href="profile.html">about</a></li>
+            <li><a href="work.html">works</a></li>
+            <li><a href="photo.html">photograph</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- <div class="header_img">
+    <img src="./image/header.png" width="1220" height="530" alt="header img">
+</div> -->
+
+<body>
+    <div class="contact">
+        <div class="box fadeUpTrigger">
+        <h1 class="contact-ttl">コンタクト</h1>
+            <h3>contact</h3>
+        </div><!--fadeUp-->
+            <form action="">
+                <div class="box fadeUpTrigger">
+                    <table class="contact-table">
+                
+                    <!-- 後ほど送信ボタンを作成 -->
+
+                    <tr>
+                        <th class="contact-item">名前</th>
+                        <td class="contact-body">
+                        <input type="text" name="名前" class="form-text" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="contact-item">性別</th>
+                        <td class="contact-body">
+                            <label class="contact-sex">
+                                <input type="radio" name="性別" />
+                                <span class="contact-sex-txt">男</span>
+                            </label>
+                            <label class="contact-sex">
+                                <input type="radio" name="性別" />
+                                <span class="contact-sex-txt">女</span>
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="contact-item">メール</th>
+                        <td class="contact-body">
+                            <input type="email" name="メール" class="form-text" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="contact-item">電話</th>
+                        <td class="contact-body">
+                            <input type="tel" name="電話" class="form-text" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="contact-item">職業</th>
+                        <td class="contact-body">
+                            <select name="職業" class="form-select">
+                                <option>選択</option>
+                                <option>学生</option>
+                                <option>主婦</option>
+                                <option>会社員</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th class="contact-item">お問い合わせ内容</th>
+                        <td class="contact-body">
+                            <textarea name="問い合わせ" class="form-textarea"></textarea>
+                        </td>
+                    </tr>
+                   
+                </table>
+            </div><!--fadeUp-->     
+        </form>
+        <input class="contact-submit" type="submit" value="送信" />
+    </div>
+    
+
+
+<footer>
+    <a href="index.html" ><img src="./image/logo.png" width="120" height="120" alt="logo"></a>
+        <nav>
+            <ul id="g-navi">
+                <li><a href="profile.html">about</a></li>
+                <li><a href="work.html">works</a></li>
+                <li><a href="photo.html">photograph</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sns">
+            <a href="https://www.facebook.com/zuon506/"><img src="./image/facebook-logo.png" width="40" height="40" alt=""></a>
+            <a href="https://www.instagram.com/bo.vp/"><img src="./image/instagram-logo.png" width="40" height="40" alt=""></a>
+        </div>
+
+    <div class="pagetop">
+        <a href="#" id="page-top">TOP</a>
+    </div>
+    <p>Copyright © ZUON All Rights Reserved</p>
+</footer>
+</body>
+</html>
